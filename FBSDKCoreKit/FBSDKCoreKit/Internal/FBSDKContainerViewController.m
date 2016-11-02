@@ -28,6 +28,10 @@
   }
 }
 
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+  return UIInterfaceOrientationMaskPortraitUpsideDown | UIInterfaceOrientationMaskPortrait;
+}
+
 - (void)displayChildController:(UIViewController *)childController
 {
   [self addChildViewController:childController];

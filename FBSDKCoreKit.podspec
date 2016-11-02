@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.tvos.deployment_target = '9.0'
 
-  s.source       = { :git => "https://github.com/facebook/facebook-ios-sdk.git",
+  s.source       = { :git => "https://github.com/cominteract/facebook-ios-sdk.git",
                      :tag => "sdk-version-4.17.0"
                     }
 
